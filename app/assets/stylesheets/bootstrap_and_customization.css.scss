@@ -1,8 +1,24 @@
-
-
+@import "bourbon";
 
 $jumbotron-bg: #ffffff;
+$navbar-default-brand-color: #ff5a5f ;
+
 //========================================sass==============================================
+.helvetica {
+  font-family: $helvetica;
+}
+
+.thin{
+  font-weight: 100 !important;
+}
+
+.light{
+  font-weight: 300 !important;
+}
+.navbar .navbar-brand{
+  font-size: 35px !important;
+}
+
 .navbar {
   border-radius: 0 !important;
 }
@@ -11,10 +27,10 @@ $jumbotron-bg: #ffffff;
   text-align: center;
 
 }
-h1.margin-jumbotron{
+
+h1.margin-jumbotron {
   margin-bottom: 40px;
 
 }
 
-
-  @import 'bootstrap';
+@import 'bootstrap';
