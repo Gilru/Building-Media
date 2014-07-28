@@ -3,9 +3,12 @@ Rails.application.routes.draw do
   get 'pages/home'
   root "pages#home"
 
-    %w( 404 422 500 ).each do |code|
-      get code, :to => "pages#show", :code => code
 
-
+#=======================ERROR BEGINNING==========================
+  %w( 404 422 500 ).each do |code|
+    get code, :to => "pages#show", :code => code
   end
+#=======================ERROR END===============================
+
+
 end

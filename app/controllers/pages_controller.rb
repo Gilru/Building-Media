@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  # ============================================ERROR===================================================
+#============================================ERROR BEGINNING===================================================
 
   def show
     render status_code.to_s, :status => status_code
@@ -14,5 +14,5 @@ class PagesController < ApplicationController
     params[:code] || 500
   end
 
-
+#============================================ERROR END====================================================
 end
