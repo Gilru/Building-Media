@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'users/index'
+  get 'users/show'
+
+  get "/users/informations" => "users#index"
+
   devise_for :users
   get 'pages/home'
   root "pages#home"
