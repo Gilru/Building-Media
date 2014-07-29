@@ -24,12 +24,21 @@ $navbar-default-brand-color: #ff5a5f;
   border-radius: 0 !important;
 }
 
+.red {
+  color: #FF4C40;
+}
+
+h2{
+  font-size: 30px !important;
+  font-weight: 300 !important;
+}
+
 .center {
   text-align: center;
 
 }
 
-.flash-center{
+.flash-center {
   text-align: center;
   font-size: 30px !important;
 }
@@ -39,10 +48,46 @@ $navbar-default-brand-color: #ff5a5f;
 
 }
 
+label{
+  font-weight: 300 !important;
+  font-size: 16px;
+}
+.login-or{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+
+}
+.login-or div {
+  font-family: serif;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-left: -16px;
+  width: 32px;
+  left: 50%;
+  position: absolute;
+  background-color: #ffffff;
+  top: -8px;
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
 .social-style {
   width: 394px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.social-form-syle{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.margin-signup{
+  margin-bottom: 25px;
 }
 
 @import 'bootstrap';
